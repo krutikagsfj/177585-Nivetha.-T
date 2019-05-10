@@ -1,0 +1,29 @@
+{
+    "GameList":[
+        {
+            "id":1,
+            "game_name":"1) Shooting",
+            "game_amount":"105"
+        },
+        {
+            "id":2,
+            "game_name":"2) Angry Birds",
+            "game_amount":"95"
+        },
+        {
+            "id":3,
+            "game_name":"3) Temple run",
+            "game_amount":"200"
+        },
+        {
+            "id":4,
+            "game_name":"4) Bike Race",
+            "game_amount":"90"
+        },
+        {
+            "id":5,
+            "game_name":"5) Air Control",
+            "game_amount":"800"
+        }
+    ]
+}

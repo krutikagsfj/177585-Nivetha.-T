@@ -1,0 +1,13 @@
+<h3>Welcome to GameCity! Your Card Balance Amount is Rs 600</h3>
+<div class="col-md-12"></div>
+<table class="table">
+  <tbody>
+    <tr *ngFor="let list of gameListData">
+      <td class="hidden">{{list.id}}</td>
+      <td>{{list.game_name}}</td>
+      <td>Rs {{list.game_amount}}</td>
+      <td><button (click)="getGameId(list)">playNow</button></td>
+      <!-- <td><a [routerLink]="['app-success']">playNow</a></td> -->
+    </tr>
+  </tbody>
+</table>
